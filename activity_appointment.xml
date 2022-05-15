@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book_testLab">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+
+                <Button
+                    android:layout_width="90dp"
+
+                    android:textSize="20sp"
+                    android:layout_height="130dp"
+                    android:textAllCaps="false"
+                    android:text="Ayurveda"
+                    android:background="@drawable/apponitent"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+
+
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Bariatrics"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Cheast Physician"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Child Specialist"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Anaesthetics"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Dentist"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Ear Noise Specialist"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Eye Specialist"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Family Medicine"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text="Emergency Medicine"
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text=""
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text=""
+                    android:background="@drawable/apponitent"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text=""
+                    android:background="@drawable/apponitent"
+
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:text=""
+                    android:background="@drawable/apponitent"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
